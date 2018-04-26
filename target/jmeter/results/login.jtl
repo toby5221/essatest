@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="156" it="0" lt="155" ct="105" ts="1524726351776" s="true" lb="获取lt" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="4729" sby="238" ng="1" na="1"/>
+<httpSample t="74" it="0" lt="43" ct="0" ts="1524726351970" s="true" lb="登录BPMS-林荣" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="5362" sby="1470" ng="1" na="1">
+  <httpSample t="43" it="0" lt="43" ct="0" ts="1524726351970" s="true" lb="http://cas.sit.gz.essa/cas/login?service=http://bpms.sit.gz.essa/cas/hook" rc="302" rm="Found" tn="新增SKU 1-1" dt="" by="504" sby="626" ng="1" na="1"/>
+  <httpSample t="25" it="0" lt="25" ct="5" ts="1524726352015" s="true" lb="http://bpms.sit.gz.essa/cas/hook?ticket=ST-1226-pgb9YZH0mewAws2kS2ck" rc="302" rm="Found" tn="新增SKU 1-1" dt="" by="440" sby="444" ng="1" na="1"/>
+  <httpSample t="4" it="0" lt="4" ct="0" ts="1524726352040" s="true" lb="http://bpms.sit.gz.essa" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="4418" sby="400" ng="1" na="1"/>
+</httpSample>
+<httpSample t="1430" it="0" lt="1422" ct="0" ts="1524726352047" s="true" lb="查询采购商" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="1177" sby="380" ng="1" na="1"/>
+<httpSample t="400" it="0" lt="400" ct="0" ts="1524726353477" s="true" lb="新增单品" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="338" sby="8285" ng="1" na="1"/>
+<sample t="7" it="0" lt="0" ct="6" ts="1524726353878" s="false" lb="JDBC Request" rc="null 0" rm="java.sql.SQLException: Cannot load JDBC driver class &apos;com.mysql.jdbc.Driver&apos;" tn="新增SKU 1-1" dt="text" by="53" sby="0" ng="1" na="1"/>
+<httpSample t="9" it="0" lt="9" ct="3" ts="1524726353891" s="true" lb="获取lt-2" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="4729" sby="238" ng="1" na="1"/>
+<httpSample t="39" it="0" lt="18" ct="0" ts="1524726353901" s="true" lb="登录BPMS-张沛" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="5362" sby="1471" ng="1" na="1">
+  <httpSample t="18" it="0" lt="18" ct="0" ts="1524726353901" s="true" lb="http://cas.sit.gz.essa/cas/login?service=http://bpms.sit.gz.essa/cas/hook" rc="302" rm="Found" tn="新增SKU 1-1" dt="" by="504" sby="627" ng="1" na="1"/>
+  <httpSample t="16" it="0" lt="16" ct="0" ts="1524726353920" s="true" lb="http://bpms.sit.gz.essa/cas/hook?ticket=ST-1227-QnuTmHm4iSnNbucpsof3" rc="302" rm="Found" tn="新增SKU 1-1" dt="" by="440" sby="444" ng="1" na="1"/>
+  <httpSample t="4" it="0" lt="4" ct="0" ts="1524726353936" s="true" lb="http://bpms.sit.gz.essa" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="4418" sby="400" ng="1" na="1"/>
+</httpSample>
+<httpSample t="12" it="0" lt="5" ct="0" ts="1524726353941" s="true" lb="图片更新" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="4949" sby="1045" ng="1" na="1">
+  <httpSample t="5" it="0" lt="5" ct="0" ts="1524726353941" s="true" lb="http://cas.sit.gz.essa/data/bpms/goods/release-management/update-pic" rc="302" rm="Found" tn="新增SKU 1-1" dt="text" by="335" sby="743" ng="1" na="1"/>
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1524726353946" s="true" lb="http://cas.sit.gz.essa/login;jsessionid=407E19452623369E21DA4DCF4CF79BFE?null" rc="200" rm="OK" tn="新增SKU 1-1" dt="text" by="4614" sby="302" ng="1" na="1"/>
+</httpSample>
+
+</testResults>
